@@ -19,6 +19,10 @@ body{
     margin: 0 10px;
     
 }
+.header-contact{
+  display: flex;
+  justify-content: flex-end;
+}
 /*navbar*/
 .main-nav img{
 padding-left: 25px;
@@ -291,10 +295,16 @@ padding-left: 25px;
   }
   
   .contact{
-     padding: 20px;
+    
   }
  .caddu1{
-     padding: 15px;
+     
+    padding: 45px;
+    margin: 5px;
+   
+ }
+ .caddu1 img{
+   height: 420px;
  }
  .touch
  {
@@ -345,10 +355,9 @@ padding-top: 10px;
 cursor: pointer;
 }
 
-.fa-angle-left{
-  
+.icon-feature{
+  background-color: #684e06;
+  font-size: 40px;
+  width: 100px;
 }
 
-.fa-angle-right{
-  
-}
